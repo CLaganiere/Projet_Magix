@@ -1,0 +1,596 @@
+html{
+	margin: auto;
+}
+
+#pLogin body{
+	margin: auto;
+    background-color: black;
+    background-image:url("../images/background/loginPlantZombies.jpg");
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-attachment: fixed;
+    padding: 5% 0% 4% 0%;
+	background-color: lightslategrey;
+
+}
+
+#pLogin #frame {
+	display: flex;
+	align-items: center;
+}
+
+#pLogin #illustration{
+	display: flex;
+	align-items: center;
+}
+
+#pLogin .login-form-frame{
+	margin: 8em auto 0.5em auto;
+	padding: 2% 4%;
+	background: black;
+	color:white;
+	font-size: 2vw;
+	border-radius: 10%;
+	background-image:url("../images/background/glitch2.gif");
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-attachment: fixed;
+	opacity: 0;
+}
+
+#pLogin .login-form-frame button{
+	margin: auto 2em;
+	margin-top: 10%;
+	padding: 5%;
+	font-size: 1.2vw;
+	font-weight: bold;
+	text-align: center;
+	color: black;
+	border-radius: 1em;
+	background-color: rgb(204, 0, 0);
+}
+
+#pLogin .login-form-frame label{
+	opacity: 0;
+}
+
+#pLogin .login-form-frame input {
+	margin: auto;
+	font-size: 1vw;
+	background-color: white;
+	color: black;
+}
+
+#pLogin .login-form-frame button:hover{
+	background-color: rgb(153, 0, 0);
+}
+
+#pLogin #canvas{
+	margin: auto;
+}
+
+#pLogin .login-form-frame #fail{
+	text-align: center;
+	font-size:9em;
+	border:3px solid white;
+	background-image:url("../images/background/fail.gif");
+	left:36.5%;
+	top:-600px;
+	width:500px;
+	height: 1.2em;
+	border-radius: 3%;
+	position: fixed;
+}
+
+#pIndex body{
+	margin: auto;
+    background-color: black;
+    background-image:url("../images/background/choiceBg.jpg");
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-attachment: fixed;
+    padding: 5% 0% 4% 0%;
+	background-color: lightslategrey;
+}
+
+#pIndex .illustration{
+	margin: 5em auto;
+	display:flex;
+	align-items: center;
+}
+
+#pIndex #canvas{
+	margin: auto;
+}
+
+#pIndex form{
+	display:none;
+}
+
+#pIndex .error{
+	font-size:10em;
+	color: Red;
+}
+
+#pIndex .instruction{
+	margin: -7em auto 0% auto;
+	text-align: center;
+	width: 75em;
+}
+
+#pIndex .instruction p{
+	font-size: 24px;
+	background-color:  rgb(153, 0, 0);
+}
+
+#pLogout body{
+	background-color: black;
+	color: white;
+	text-align: center;
+	display: block;
+}
+
+#pLogout .error-img{
+	margin: -12em 0% 0% 37%;
+	border:3px solid white;
+	background-image:url("../images/background/error.gif");
+	width: 30.5em;
+	height: 9em;
+	border-radius: 3%;
+	position: absolute;
+	background-position: left center;
+	background-size: cover;
+}
+
+#pLogout .error-div{
+	margin: 0.2em auto 0.2em auto;
+	font-size: 25px;
+}
+
+#pLogout body .error-div:nth-of-type(2){
+	margin-top: 12em;
+}
+
+#pLogout .form-input button{
+	font-size: 20px;
+	padding: 0.2% 0.3%;
+}
+
+/* -------------------------------------- */
+/* ---------- Page de la Game  -----------*/
+/* -------------------------------------- */
+#pGame body{
+	margin: auto;
+    background-color: black;
+    background-image:url("../images/background/actionBg.jpg");
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-attachment: fixed;
+    padding: 0% 0% 0% 0%;
+	background-color: black;
+
+	height:100%;
+}
+
+#pGame #darkSide, #pGame #lightSide {
+	background-color: RGBA(211, 211, 211, 0.8);
+	border: 0.5px solid black;
+}
+
+#pGame .attributs{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size:22px;
+	font-weight: bold;
+}
+
+#pGame #darkSide .attributs .box{
+	padding: 0.2% 5%;
+}
+
+#pGame #darkSide .attributs p{
+	margin-top: 0%;
+	padding-top: 20%;
+}
+
+#pGame #darkSide .attributs .name{
+	margin-top: 0%;
+	padding-top: 70%;
+	margin-left: -1em;
+	width: 6em;
+}
+
+#pGame #darkSide .attributs #ennemi{
+	width:100px;
+	height:80px;
+	font-size: 20px;
+	text-shadow: 2px 1px black;
+	text-align:center;
+	color: gold;
+	width: 80px;
+	border-radius: 20%;
+	background-image:url("../images/tobby.jpg");
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border:  2px solid black;
+}
+
+#pGame #darkSide .attributs #ennemi:hover{
+	border-color: rgb(204, 0, 0);
+}
+
+#pGame #lightSide .attributs #handCards{
+	margin: 1% 2%;
+	width: 85%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#pGame #lightSide .attributs #handCards .Card{
+	margin: 0% 1%;
+}
+
+#pGame #lightSide .attributs .onTheSide{
+	text-align: center;
+}
+
+#pGame #lightSide .attributs .onTheSide:nth-of-type(1){
+	padding-left: 2%;
+}
+
+#pGame #lightSide .attributs .onTheSide:last-of-type{
+	margin-right: 1.7%;
+}
+
+#pGame #lightSide .attributs .onTheSide:nth-of-type(1) div{
+	margin: 30% 0% 0% 0%;
+}
+
+#pGame #lightSide .attributs .onTheSide:last-of-type div{
+	margin: 10% 0%;
+}
+
+#pGame #lightSide .attributs .onTheSide #endTurn button{
+	padding: 25% 5%;
+	background-color:#b30000;
+	border-radius: 15%;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	text-shadow: 2px 0.5px black;
+	text-align:center;
+}
+
+#pGame #endTurn button:hover{
+	opacity: 0.9;
+}
+
+#pGame #lightSide .attributs .onTheSide #timer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#pGame #lightSide .attributs .onTheSide #timer img{
+	width: 30px;
+}
+
+#pGame #lightSide .attributs .onTheSide #heroPower button{
+	width: 6em;
+	padding: 10% 1%;
+	background-color:#0073e6;
+	border-radius: 1em;
+	border: medium solid black;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	text-shadow: 2px 0.5px black;
+	text-align:center;
+}
+
+#pGame #heroPower button:hover{
+	opacity: 0.8;
+}
+
+#pGame #board{
+	height: 31em;
+}
+
+#pGame #textTimer{
+	width:45px;
+	font-size: 30px;
+	text-shadow: 1px 1px black;
+	font-weight: bold;
+}
+
+#pGame #lightSide .attributs .lifePlayer p{
+	margin-top: 0%;
+	padding-top: 15%;
+}
+
+#pGame #lightSide .attributs .manaPlayer p{
+	margin-top: 0%;
+	padding-top: 30%;
+}
+
+#pGame #lightSide .attributs .cardLeftPlayer p{
+	margin-top: 0%;
+	padding: 16% 0% 0% 33%;
+	color: white;
+}
+
+#pGame #lightSide .cardLeftPlayer{
+	width:60px;
+	height:55px;
+	text-shadow: 1px 0.5px black;
+	background-image:url("../images/cardLeft.png");
+	background-position: left bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	margin-bottom: 0%;
+}
+
+#pGame .lifePlayer{
+	width:65px;
+	height:50px;
+	text-shadow: 1px 0.5px black;
+	background-image:url("../images/heart.png");
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+
+#pGame .manaPlayer{
+	width:60px;
+	height:55px;
+	text-shadow: 1px 0.5px black;
+	background-image:url("../images/mana.png");
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+
+#pGame #darkSide .cardLeft, #pGame #darkSide .cardHand{
+	width:60px;
+	height:55px;
+	text-shadow: 1px 0.5px black;
+	background-image:url("../images/cardLeft.png");
+	background-position: left bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	margin-bottom: 0%;
+}
+
+#pGame #darkSide .cardLeft p, #pGame #darkSide .cardHand p{
+	margin-top: 0%;
+	padding: 16% 0% 0% 33%;
+}
+
+#pGame #darkSide .cardLeft p{
+	color: white;
+}
+
+#pGame #darkSide .cardHand p{
+	color: red;
+}
+
+#pGame #board #darkCards{
+	margin: 1% 2% 2% 2%;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#pGame #board div .Card{
+	margin: 0% 1%;
+}
+
+#pGame #board #lightCards{
+	margin: 6% 2% 1% 2%;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Message d'avertissement au joueur */
+#pGame .alertUser{
+	width: 100%;
+	height: 60px;
+	padding: 1.5% 0% 0% 0%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+#pGame .alertUser #messageUser{
+	width: 50%;
+	height: 1.3em;
+	font-size: 25px;
+	font-weight: bold;
+	background-color: RGBA(211, 211, 211, 0.8);
+	opacity: 0;
+	border-radius: 0.4em;
+}
+
+/* Messageride bas de page */
+#pGame  #lightSide #chat{
+	width:100%;
+	background-color: RGBA(211, 211, 211, 0.8);
+	height: 24px;
+	font-size: 20px;
+}
+
+#pGame #lightSide #darkMessage{
+	float: left;
+	padding-left: 8%;
+}
+
+#pGame  #lightSide #lightMessage{
+	float: right;
+	padding-right: 8%;
+}
+
+/* ---------------------------- */
+/* ---------- Carte  -----------*/
+/* ---------------------------- */
+
+#pGame .Card{
+	width: 125px;
+	height: 200px;
+	padding:0px;
+	background-color: rgb(13, 26, 0);
+	border: 0.5px solid black;
+	border-radius: 10%;
+	color: white;
+	font-size: 16px;
+	text-align:center;
+}
+
+#pGame #board #lightCards .Card:hover, #pGame #lightSide #handCards .Card:hover{
+	background-color:rgb(38, 77, 0);
+	border-color: white;
+}
+
+#pGame #board #darkCards .Card:hover {
+	background-color:rgb(204, 0, 0);
+	border-color: black;
+}
+
+#pGame .Card .cost{
+	font-size: 18px;
+	color: yellow;
+	padding-left: 10px;
+	text-align: left;
+}
+
+#pGame .Card .imageCarac{
+	margin: 0px 12.5px;
+	width: 100px;
+	height: 75px;
+	border: 2px solid black;
+	background-color:lightgrey;
+
+	background-image:url("../images/zombie2.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover 75px;
+}
+
+#pGame .Card .name{
+	font-size: 20px;
+}
+
+#pGame .Card .type{
+	font-size: 12px;
+	height: 30px;
+}
+
+#pGame .Card .force{
+	margin-top: 15px;
+	padding: 0% 13px 0% 5px;
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 22px;
+}
+
+#pGame .Card .force .attack{
+	color: white;
+	padding-left: 10px;
+	text-align: left;
+}
+
+#pGame .Card .force .life{
+	color: red;
+	padding-left: 10px;
+	text-align: left;
+}
+
+/* ---------------------------------------------- */
+/* ---------- End Game Trophy/Waiting  -----------*/
+/* ---------------------------------------------- */
+
+#pGame #waiting {
+	text-align: center;
+	border:3px solid white;
+	background-image:url("../images/background/waiting.gif");
+	left:37%;
+	top:25%;
+	width:30em;
+	height: 15em;
+	border-radius: 3%;
+	position: absolute;
+	display: none;
+}
+
+#pGame #waiting p{
+	font-size:5em;
+	margin-top: 3em;
+	margin-left: -1em;
+	width: 8em;
+	color:orange;
+	text-align: center;
+	background-color: black;
+	border-radius: 2em;
+}
+
+#pGame #loose{
+	text-align: center;
+	font-size:9em;
+	border:3px solid white;
+	background-image:url("../images/background/bigLook.gif");
+	left:24%;
+	top:50px;
+	width:6.8em;
+	height: 5em;
+	border-radius: 3%;
+	position: absolute;
+	display:none;
+}
+
+#pGame #loose p{
+	padding-top: 28%;
+	color:orange;
+	text-align: center;
+	text-shadow: 5px 1px black;
+}
+
+
+#pGame #win{
+	text-align: center;
+	border:3px solid white;
+	background-image:url("../images/background/winner.gif");
+	left:35%;
+	top:35%;
+	width:30em;
+	height: 16.2em;
+	border-radius: 3%;
+	position: absolute;
+	display:none;
+}
+
+#pGame #win p{
+	font-size:9em;
+	margin-top: -1.2em;
+	margin-left: -2em;
+	width: 8em;
+	color:orange;
+	text-align: center;
+	text-shadow: 5px 1px red;
+	background-color: black;
+	border-radius: 2em;
+}
